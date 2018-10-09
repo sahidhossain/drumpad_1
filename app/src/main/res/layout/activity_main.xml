@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:background="@drawable/bluebutton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound1"
+            android:id="@+id/ps1"/>
+
+        <Button
+            android:background="@drawable/bt2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound2"
+            android:id="@+id/ps2"/>
+
+        <Button
+            android:background="@drawable/bt3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound3"
+            android:id="@+id/ps3"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:background="@drawable/bt4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound4"
+            android:id="@+id/ps4"/>
+
+        <Button
+            android:background="@drawable/bt5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound5"
+            android:id="@+id/ps5"/>
+
+        <Button
+            android:background="@drawable/bt6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound6"
+            android:id="@+id/ps6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:background="@drawable/bt7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound7"
+            android:id="@+id/ps7"/>
+
+        <Button
+            android:background="@drawable/bt8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound8"
+            android:id="@+id/ps8"/>
+
+        <Button
+            android:background="@drawable/bt9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound9"
+            android:id="@+id/ps9"/>
+    </LinearLayout>
+
+</LinearLayout>
